@@ -1,0 +1,3 @@
+# Requirements for Tausug Text Extraction Pipeline
+PyPDF2==3.0.1
+pdfplumber==0.10.3
