@@ -1,0 +1,10 @@
+Theme of the Model:
+
+  Casual with a goal to preserve the language
+
+  Implementation:
+    Words that tend to be casual are weighted more over words that capture the theme of the corpus.
+    For this, words that happen most often are weighted less and words that happen less are weighted more. This is to normalize the data.
+    
+    Essentially, the goal is to normalize the data so that themes are minimized. At the same time, words that have the same weight but the other is formal(therefore it happens more if the corpus is formal), the formal one is predicted
+    to introduce new words to the user.
